@@ -13,7 +13,19 @@ public class Aeroport {
 
     public String getNomAeroport() {
       return this.nom;
-   }
+	}
+   
+	public void setNomAeroport(String name){
+		this.nom = name;
+	}
+	
+	public ArrayList getCity(){
+		return villes;
+	}
+	
+	public void setCity(ArrayList city){
+		this.villes = city;
+	}
 	
 	@Override
 	public String toString(){
